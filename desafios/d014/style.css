@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+
+
+*{
+    font-family: sans-serif;
+}
+
+table > thead > tr > th {
+    text-align: center;
+    border: 1px solid black;
+    width: 100px;
+    height: 20px;
+    font-family: sans-serif;
+}
+
+table > tbody > tr > th{
+    text-align: center;
+    border: 1px solid black;
+    width: auto;
+    height: auto;
+   
+}
+
+table > tbody > tr > td{
+    text-align: center;
+    border: 1px solid black;
+    width: 100px;
+    height: 20px;
+   
+}
+
+table > tfoot > tr > th, td{
+    text-align: center;
+    border: 1px solid black;
+    
+    
+}
