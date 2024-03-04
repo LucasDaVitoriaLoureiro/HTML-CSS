@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+
+
+header > div > img {
+    width: 40vw;
+    background-color: rgba(0, 0, 0, 0);
+    
+}
+
+header > div {
+    width: 45vw;
+}
+
+header > div > h1 {
+    background-color: rgba(0, 0, 0, 0);
+}
