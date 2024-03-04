@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+*{
+    font-family: sans-serif;
+}
+
+div#rolagem {
+    height: 380px;
+    width: 600px;
+    overflow-x: auto;
+    display: block;
+    margin: auto;
+}
+
+
+div > div#caixa {
+    width: 60vw;
+    height: 100px;
+    align-items: top;
+}
+
+
+
+div > div > img.tamanho {
+    display: inline-block;
+    
+    height: 360px;
+    padding: 5px;
+}
