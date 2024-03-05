@@ -31,14 +31,20 @@ header > div {
 }
 
 
-header > div > div{
+header > div > div#glass{
     display: block;
     margin: auto;
     margin-bottom: 20px; 
     text-align: center;
     border-radius: 20px;
-    background-color: rgba(0, 0, 0, 0.663);
-    border: 1px solid #00BFC586;
+    background-color: rgba(0, 0, 0, 0.459);
+    animation: neon 1s alternate infinite ease-in-out;
+    overflow: hidden;
+}
+
+header > div > div > img, h1{
+  animation: vidro 3s ease-in-out;
+
 }
 
 
@@ -60,6 +66,7 @@ main > div > h2 {
   text-align: center;
   display: block;
   margin: auto;
+  letter-spacing: 5px;
 }
 
 main > div > hr#maior{
@@ -146,10 +153,8 @@ main > div > div > div > div > ul > li > img.interesses-imagen{
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: initial;
-    margin: auto;
-    margin-top: 20px;
-    
+    justify-content: space-around;
+    margin-left: -10vw;
 }
 
 .botao {
@@ -163,6 +168,7 @@ main > div > div > div > div > ul > li > img.interesses-imagen{
 .imagen {
     width: 30px;
     background-color: #00000000;
+    animation: neon 1s alternate infinite ease-in-out;
 }
 
 
@@ -243,11 +249,20 @@ background: linear-gradient(0deg, #00e9f1 0%, #009da2 100%);
 
   @keyframes botao {
     from {
-        opacity: 0; margin-center: -20px;
+        opacity: 0; margin-bottom: -20px;
     }
     to {
-        opacity: 1; margin-center: 0px;
+        opacity: 1; margin-bottom: 0px;
     }
+}
+
+@keyframes vidro {
+  from {
+      opacity: 0; margin-bottom: -600px;
+  }
+  to {
+      opacity: 1; margin-bottom: 0px;
+  }
 }
 
 @keyframes neon {
