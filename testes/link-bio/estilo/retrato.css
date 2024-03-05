@@ -2,7 +2,12 @@
 
 
 
-header > div > img {
+
+header {
+    height: 600px;
+}
+
+header > div > div > img {
     width: 40vw;
     background-color: rgba(0, 0, 0, 0);
     
@@ -12,6 +17,62 @@ header > div {
     width: 45vw;
 }
 
-header > div > h1 {
+header > div > div > h1 {
     background-color: rgba(0, 0, 0, 0);
+    font-size: 1.3rem;
+    padding-bottom: 10px;
+}
+
+
+
+main > div#detalhes-hewerton{
+    margin: auto;
+    margin-top: 50px;
+
+  }
+  
+  main > div > div > div#cada-detalhe {
+    margin-bottom: 60px;
+  }
+  
+  main > div > div > div > ul > li#descriminar-detalhes {
+    color: #00BFC5;
+    list-style-type: none;
+    width: 30vw;
+    margin: none;
+    margin-left: -40px;
+  }
+  
+  main > div > div > div > ul > li#sobre-detalhes {
+    list-style-type: none;
+    width: 50vw;
+    margin-left: -40px;
+  
+  }
+  
+  #iniciando{
+    margin-top: -50px;
+    margin-right: 50px;
+  }
+  
+  main > div > div div#abcd{
+    display: flex;
+  }
+
+  
+  main > div > div > div > div > ul > li{
+    list-style-type: none;
+    margin-left: -40px;
+    
+  }
+
+  .imagen {
+    width: 20px;
+    background-color: #815c0600;
+}
+
+
+
+.btn-12 span {
+    width: 40vw;
 }
